@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.bdqn.app.animation.AnimationActivity;
 import com.bdqn.app.broadcastreceiver.BroadcastReceiverSampleActivity;
 import com.bdqn.app.fragments.FragmentSampleActivity;
 import com.bdqn.app.gridview.GridViewArrayAdapterTestActivity;
@@ -104,6 +105,12 @@ public class MainActivity extends AppCompatActivity {
     }
     public void showServiceSample(View view) {
         mIntent.setClass(this, ServiceSampleActivity.class);
+        startActivity(mIntent);
+    }
+
+
+    public void showAnimationSample(View view){
+        mIntent.setClass(this, AnimationActivity.class);
         startActivity(mIntent);
     }
 

@@ -119,5 +119,12 @@
             android:text="Service  Sample"
             />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showAnimationSample"
+            android:text="Animation  Sample"
+            />
+
     </LinearLayout>
 </ScrollView>
