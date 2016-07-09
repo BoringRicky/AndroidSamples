@@ -127,7 +127,9 @@
 
         <activity android:name=".animation.AnimationActivity" />
         <activity android:name=".animation.ViewAnimationSampleActivity" />
-        <activity android:name=".animation.ObjectAnimationSampleActivity"></activity>
+        <activity android:name=".animation.ObjectAnimationSampleActivity" />
+        <activity android:name=".customwidget.CustomWidgetSamlpleActivity" />
+        <activity android:name=".xml.XmlPullParserSampleActivity"></activity>
     </application>
 
 </manifest>

@@ -126,5 +126,19 @@
             android:text="Animation  Sample"
             />
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showCustomWidgetSample"
+            android:text="CustomWidget  Sample"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showXmlPullParserSample"
+            android:text="XmlPullParser  Sample"
+            />
+
     </LinearLayout>
 </ScrollView>

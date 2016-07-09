@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.bdqn.app.animation.AnimationActivity;
 import com.bdqn.app.broadcastreceiver.BroadcastReceiverSampleActivity;
+import com.bdqn.app.customwidget.CustomWidgetSamlpleActivity;
 import com.bdqn.app.fragments.FragmentSampleActivity;
 import com.bdqn.app.gridview.GridViewArrayAdapterTestActivity;
 import com.bdqn.app.gridview.GridViewBaseAdapterTestActivity;
@@ -21,6 +22,7 @@ import com.bdqn.app.net.NetSampleActivity;
 import com.bdqn.app.recyclerview.RecyclerViewSampleActivity;
 import com.bdqn.app.service.ServiceSampleActivity;
 import com.bdqn.app.sqlite.SqliteSampleActivity;
+import com.bdqn.app.xml.XmlPullParserSampleActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -111,6 +113,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void showAnimationSample(View view){
         mIntent.setClass(this, AnimationActivity.class);
+        startActivity(mIntent);
+    }
+    public void showCustomWidgetSample(View view){
+        mIntent.setClass(this, CustomWidgetSamlpleActivity.class);
+        startActivity(mIntent);
+    }
+
+
+    public void showXmlPullParserSample(View view){
+        mIntent.setClass(this, XmlPullParserSampleActivity.class);
         startActivity(mIntent);
     }
 
